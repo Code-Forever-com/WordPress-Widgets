@@ -1,0 +1,3 @@
+<?php 
+//Library Functions File
+?>
