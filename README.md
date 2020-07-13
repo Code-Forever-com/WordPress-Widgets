@@ -11,3 +11,7 @@ A lot of new and different widgets for WordPress.
             |-> widget.css
  
             |-> widget.js
+            
+            |-> image.jpg
+            
+            |-> design.xd
