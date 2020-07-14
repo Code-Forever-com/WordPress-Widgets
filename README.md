@@ -15,3 +15,5 @@ A lot of new and different widgets for WordPress.
             |-> image.jpg
             
             |-> design.xd
+
+### Number Of Widgets is 1.
