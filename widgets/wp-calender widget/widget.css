@@ -1,0 +1,32 @@
+.button{
+    padding: 0.3rem 0.5rem;
+    border-radius: 8px;
+    margin: 0.2rem;
+}
+.button:hover{
+    text-decoration: none;
+}
+.tbl tr td{
+    padding: 0.4rem;
+    font-size: small;
+    text-align: center;
+}
+.tbl tr th{
+    text-align: center;
+    padding: 0.4rem;
+}
+#month_name{
+    font-size: larger;
+    font-weight: 500;
+    color: white;
+}
+.card-header{
+    background-color: #1ebbd3;
+    border-bottom: #1ebbd3;
+}
+.card{
+    border-color: #1ebbd3;
+}
+.today{
+    background-color: antiquewhite;
+}
