@@ -16,4 +16,4 @@ A lot of new and different widgets for WordPress.
             
             |-> design.xd
 
-### Number Of Widgets is 1.
+### Number Of Widgets is 2.
