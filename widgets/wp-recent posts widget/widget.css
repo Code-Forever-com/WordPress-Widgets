@@ -1,0 +1,62 @@
+.recent-posts-container{
+    width: 100%;
+}
+.recent-posts-container .recent-posts-title{
+    font-size: x-large;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+}
+.recent-posts-container .recent-posts-hr{
+    height: 2px;
+    width: 100%;
+    background-color: orange;
+    margin: 0.5rem 0;
+}
+.recent-posts-container .recent-posts-box{
+    padding: 0.5rem;
+}
+.recent-posts-container .recent-posts-box .recent-posts-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.recent-posts-list .recent-posts-list-item{
+    padding: 0.2rem;
+    display: flex;
+}
+.recent-posts-list-item img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+.recent-posts-list a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.recent-posts-list-item .list-item-text{
+    color: black;
+    font-size: medium;
+    font-weight: 400;
+    margin: auto 0px;
+}
+.recent-posts-list-item .list-item-text .list-item-title{
+    display: block;
+    text-align: left;
+    width: 100%;
+}
+.recent-posts-list-item .list-item-text .list-item-date{
+    color: gray;
+    font-size: small;
+    display: block;
+}
+.recent-posts-list a:hover img{
+    border: 2px solid orange;
+}
+.recent-posts-list a:hover .list-item-text .list-item-title{
+    color: orange;
+}
+.recent-posts-list a:hover .list-item-text .list-item-date{
+    color: rgb(145, 97, 8);
+}
