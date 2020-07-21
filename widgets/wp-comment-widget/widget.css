@@ -1,0 +1,43 @@
+.comment-container{
+    width: 100%;
+}
+.comment-container .comment-header{
+    font-size: large;
+    font-weight: bold;
+}
+.comment-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.comment-list .comment-list-box{
+    border-left: 0.2rem solid red;
+    padding: 1rem;
+    background-color: rgba(0,0,0,.03);
+}
+.comment-list-box .comment-info img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.comment-info .user{
+    font-weight: bold;
+}
+.comment-info .datetime{
+    display: block;
+}
+.options{
+    margin-top: 0.5rem;
+}
+.options a{
+    display: block;
+    color: white;
+    background-color: teal;
+    border-radius: 10px;
+    padding: 0.3rem 0.5rem;
+    width: fit-content;
+}
+.options a:hover{
+    text-decoration: none;
+    background-color: rgb(6, 180, 180);
+}
