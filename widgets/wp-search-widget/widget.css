@@ -1,0 +1,12 @@
+.search-results-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.search-results-list .search-results-list-item{
+    filter: none;
+    transition: 0.5s;
+}
+.search-results-list .search-results-list-item:hover{
+    filter: drop-shadow(2px 4px 6px black);
+}

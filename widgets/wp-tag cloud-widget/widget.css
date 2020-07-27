@@ -1,0 +1,23 @@
+.wg-cloud-item{
+    transition: .5s;
+    display: inline-block;
+    border: 1px solid green;
+    color: green;
+    margin: 0.1rem;
+    padding: 0.1rem;
+    border-radius: .25rem;
+}
+.wg-cloud-item:hover,.btn.load-more:hover{
+    text-decoration: none;
+    background-color: green;
+    color: white;
+}
+.btn.load-more{
+    text-align: center;
+    display:block;
+    color: green;
+    border: 1px solid green;
+    border-radius: .25rem;
+    margin-top: 0.5rem;
+    transition: .5s;
+}

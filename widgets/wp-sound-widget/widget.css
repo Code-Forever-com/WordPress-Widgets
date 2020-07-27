@@ -1,0 +1,33 @@
+.sound-player-container{
+    padding: 1rem;
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+.sound-player-container .player-title{
+    font-size: large;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+.sound-player-container .player-subtitle{
+    font-size: medium;
+    font-weight: 400;
+    color: #6c757d;
+    text-align: center;
+}
+.sound-player-container .player-duration{
+    text-align: center;
+}
+.sound-player-container .options{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    margin-top: 1rem;
+}
+.sound-player-container .options div{
+    width: 33.3333%;
+}
+.sound-player-container .options div i{
+    cursor: pointer;
+}
