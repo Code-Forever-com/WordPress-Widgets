@@ -2,22 +2,32 @@
     display: none;
 }
 .social-media-container{
-    text-align: center;
-    justify-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    position: sticky;
+    background-color: green;
+    padding: 1rem 0;
 }
-.button{
+.button,.share-count-box{
     color: white;
     margin: 0.2rem;
     font-size: 20px;
-    padding: 8px 12px;
     border-radius: 10%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: grid;
+}
+.button i{
+    margin-bottom: auto!important;
+    margin-top: auto!important;
 }
 .button:hover{
     color: white;
 }
 .btn-facebook{
     background-color: #3b5998;
-    padding: 8px 15.5px;
 }
 .btn-facebook:hover{
     background-color: #2d4579;
@@ -30,29 +40,29 @@
 }
 .btn-linkedin{
     background-color: #0976b4;
-    padding: 8px 12.5px;
 }
 .btn-linkedin:hover{
     background-color: #0b5c8b;
 }
 .btn-pinterest{
     background-color: #cc2127;
-    padding: 8px 14px;
 }
 .btn-pinterest:hover{
     background-color: #991b1f;
 }
 .btn-tumblr{
     background-color: #35465c;
-    padding: 8px 15.5px;
 }
 .btn-tumblr:hover{
     background-color: #202b38;
 }
 .btn-reddit{
     background-color: #ff4500;
-    padding: 8px 11px;
 }
 .btn-reddit:hover{
     background-color: #ce3a04;
+}
+.share-count-box{
+    font-size: 25px;
+    border-right: 2px solid white;
 }

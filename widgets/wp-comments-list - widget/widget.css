@@ -1,0 +1,57 @@
+.screen-reader-text{
+    display:none;
+}
+.pagination{
+    display:block;
+}
+.comment-container{
+    width: 100%;
+}
+.comment-container .comment-header{
+    font-size: large;
+    font-weight: bold;
+}
+.comment-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.comment-list .comment{
+    border-left: 0.2rem solid red;
+    padding: 1rem;
+    background-color: rgba(0,0,0,.03);
+	margin-bottom:1rem;
+	list-style:none;
+}
+.comment-author img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+	margin-right:1rem;
+}
+cite.fn a{
+    font-weight: bold;
+}
+.comment-details .comment-meta a:first-child{
+    color:black;
+	font-size:small;
+}
+.reply{
+    margin-top: 0.5rem;
+}
+.reply .comment-reply-link{
+    display: block;
+    color: white;
+    background-color: teal;
+    border-radius: 10px;
+    padding: 0.3rem 0.5rem;
+    width: fit-content;
+	margin: 1rem 0;
+}
+.reply .comment-reply-link:hover{
+    text-decoration: none;
+    background-color: rgb(6, 180, 180);
+}
+.comment-body .children{
+    list-style:none;
+}

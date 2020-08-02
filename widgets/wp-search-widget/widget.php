@@ -6,7 +6,6 @@
             </h1>
         </header><!-- .page-header -->
         
-        </div>
         <div class="search-results">
 <ul class="search-results-list">
         <?php

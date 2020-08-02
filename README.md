@@ -10,5 +10,5 @@ widgets/
 	image.jpg
 	design.xd
 
-### Number Of Widgets is 10.
+### Number Of Widgets is 15.
 

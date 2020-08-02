@@ -6,5 +6,4 @@
 * Galery
 * Image
 * RSS
-* Recent Comments
 * Contact Form
